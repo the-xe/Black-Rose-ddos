@@ -1,0 +1,11 @@
+# Custom HTTP headers for evasion and realism
+X-Forwarded-For: 12.13.14.15
+X-Requested-With: XMLHttpRequest
+From: user@example.com
+DNT: 1
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+TE: trailers
+Via: 1.1 google
+X-Csrf-Token: k3j4h5k3j4h5k3j4h5k3j4h5
+X-Frame-Options: deny
+Content-Security-Policy: default-src 'self'
