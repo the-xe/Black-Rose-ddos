@@ -1,6 +1,4 @@
-Of course! Here is a beautifully crafted, professional, and graphically rich README.md for your project, now named Black Rose. All content is in proper English and designed to be visually appealing.
 
-Simply copy the content below and save it in a file named README.md at the root of your project directory.
 
 <div align="center">
 
