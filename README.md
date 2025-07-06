@@ -100,4 +100,5 @@ We take no responsibility for how you use this tool.
 
 ## 📜 License
 
-**MIT License © Amir Masoud**
+This project is licensed under **CC BY-NC 4.0**  
+© 2025 Amir Masoud | All non-commercial uses allowed.
