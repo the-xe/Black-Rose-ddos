@@ -1,94 +1,112 @@
 # 🥀 BLACK ROSE
 
-**نسخه 2.0 — بازنویسی‌شده، سریع‌تر، و تاریک‌تر از همیشه**
+**Version 15.0 — The Overload Protocol. Rebuilt, faster, and darker than ever.**
 
-Black Rose ابزاری است برای پردازش و تحلیل داده‌های رمزنگاری‌شده، طراحی‌شده با الهام از تاریکی، امنیت و سادگی. مناسب برای کسانی که به قدرت در سکوت ایمان دارند 😈
-
----
-
-## 📸 پیش‌نمایش
-
-> به‌زودی...
+Black Rose is an elite stress testing framework designed for simulating sophisticated, high-intensity network attacks. It combines raw power with a clean, stealthy interface. Perfect for those who believe in strength through silence. 😈
 
 ---
 
-## ✨ ویژگی‌ها (Features)
+## 📸 Preview
 
-- ⚡️ **سریع و بهینه‌شده برای عملکرد بالا**
-- 🔐 **رمزنگاری دوطرفه در هسته‌ی پردازش**
-- 🧠 **ادغام‌شده با موتور تحلیل هوش مصنوعی**
-- 🖥️ **رابط خط فرمان (CLI) ساده و قدرتمند**
-- ⚙️ **پیکربندی آسان از طریق فایل config.yaml**
+*A live telemetry dashboard in action.*
+
+
+
+*(Note: Replace the placeholder link above with a real screenshot.)*
 
 ---
 
-## 🚀 نصب و اجرا (Installation)
+## ✨ Features
+
+- ⚡ **High-Intensity Performance:** A multi-threaded engine capable of launching thousands of concurrent connections.
+- 🛡️ **Multi-Vector Attack Engine:** Combines Layer 3, 4, and 7 vectors like `HTTP/2 Rapid Reset`, `SYN Flood`, and `Hybrid Assault`.
+- 🌐 **Stealth & Anonymity:** Integrated proxy manager with auto-validation (SOCKS5/SOCKS4/HTTP) to mask your origin.
+- 🖥️ **Powerful Live Dashboard:** A clean and powerful CLI interface for real-time monitoring of attack telemetry.
+- ⚙️ **Simple Configuration:** Easily configure complex attack scenarios via a single `config.json` file.
+
+---
+
+## 🚀 Installation
 
 ```bash
-git clone https://github.com/yourusername/blackrose.git
-cd blackrose
+# Clone the repository
+git clone https://github.com/yourusername/black-rose.git
+
+# Navigate to the project directory
+cd black-rose
+
+# Install the required dependencies
 pip install -r requirements.txt
-python main.py
+
+# Launch the tool (it will use config.json)
+python black_rose.py
 ```
 
 ---
 
-## 🧪 طرز استفاده (Usage)
+## 🧪 Usage
+
+From the command line:
 
 ```bash
-python main.py --input data.txt --mode secure
+# Launch an attack with custom parameters
+python black_rose.py --target https://example.com --duration 600
 ```
 
-یا اگر از داخل کد استفاده می‌کنید:
-
+Or programmatically (by importing its modules, if designed for it):
 ```python
-from blackrose import Analyzer
-Analyzer().run("myfile.txt")
+# This is a conceptual example if you structure it as a library
+from black_rose import AttackOrchestrator
+
+config = {"target": "https://example.com", "duration": 30, "threads": 100}
+orchestrator = AttackOrchestrator(config)
+orchestrator.unleash_vengeance()
 ```
 
 ---
 
-## 📁 ساختار پروژه (Project Structure)
+## 📁 Project Structure
 
 ```
-blackrose/
-├── core/
-│   └── engine.py
-├── assets/
-├── main.py
-├── README.md
-└── requirements.txt
+black-rose/
+├── files/
+│   ├── dns.txt
+│   └── headers.txt
+├── black_rose.py         # Main executable script
+├── config.json           # Default configuration
+├── README.md             # You are here
+└── requirements.txt      # Project dependencies
 ```
 
 ---
 
-## ⚠️ مسئولیت استفاده (Disclaimer)
+## ⚠️ Disclaimer
 
-**ساخته‌شده توسط یک ذهن پیچیده و مریض.**\
-**نه مسئول خوب‌بودنش هستیم، نه بد‌بودنش.**\
-*Use it however you want — it's not our business.*
-
----
-
-## 🙋‍♂️ سوالات متداول (FAQ)
-
-**Q:** آیا این پروژه رایگانه؟\
-**A:** بله، تحت لایسنس MIT منتشر شده.
-
-**Q:** چطور مشارکت کنم؟\
-**A:** پروژه رو fork کن، تغییراتت رو push کن و Pull Request بده!
+**Powered by a twisted mind.**
+This tool is for educational and authorized testing ONLY.
+We take no responsibility for how you use this tool.
+*Use it however you want — it’s not our concern.*
 
 ---
 
-## 👤 توسعه‌دهنده
+## 🙋‍♂️ FAQ
 
-- **Amir Masoud**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Telegram: `@yourhandle`
+**Q:** Is this project free?
+**A:** Yes, it’s released under the MIT License.
+
+**Q:** How can I contribute?
+**A:** Fork the repo, make your changes, and submit a Pull Request!
 
 ---
 
-## 📜 لایسنس
+## 👤 Developer
+
+* **Amir Masoud**
+* GitHub: [@yourusername](https://github.com/yourusername)
+* Telegram: `@yourhandle`
+
+---
+
+## 📜 License
 
 **MIT License © Amir Masoud**
-
