@@ -1,18 +1,8 @@
 # 🥀 BLACK ROSE
 
-**Version 15.0 — The Overload Protocol. Rebuilt, faster, and darker than ever.**
+**Version 2.0 — Reborn & Relentless.**
 
 Black Rose is an elite stress testing framework designed for simulating sophisticated, high-intensity network attacks. It combines raw power with a clean, stealthy interface. Perfect for those who believe in strength through silence. 😈
-
----
-
-## 📸 Preview
-
-*A live telemetry dashboard in action.*
-
-
-
-*(Note: Replace the placeholder link above with a real screenshot.)*
 
 ---
 
@@ -30,10 +20,10 @@ Black Rose is an elite stress testing framework designed for simulating sophisti
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/black-rose.git
+git clone https://github.com/the-xe/sick-mind.git
 
 # Navigate to the project directory
-cd black-rose
+cd sick-mind
 
 # Install the required dependencies
 pip install -r requirements.txt
@@ -68,11 +58,11 @@ orchestrator.unleash_vengeance()
 ## 📁 Project Structure
 
 ```
-black-rose/
+sick-mind/
 ├── files/
 │   ├── dns.txt
 │   └── headers.txt
-├── black_rose.py         # Main executable script
+├── main.py         # Main executable script
 ├── config.json           # Default configuration
 ├── README.md             # You are here
 └── requirements.txt      # Project dependencies
@@ -102,8 +92,8 @@ We take no responsibility for how you use this tool.
 ## 👤 Developer
 
 * **Amir Masoud**
-* GitHub: [@yourusername](https://github.com/yourusername)
-* Telegram: `@yourhandle`
+* GitHub: [@the-xe](https://github.com/the-xe)
+* Telegram: `@the_ouo`
 
 ---
 
