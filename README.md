@@ -29,7 +29,7 @@ cd sick-mind
 pip install -r requirements.txt
 
 # Launch the tool (it will use config.json)
-python black_rose.py
+python main.py
 ```
 
 ---
@@ -40,7 +40,7 @@ From the command line:
 
 ```bash
 # Launch an attack with custom parameters
-python black_rose.py --target https://example.com --duration 600
+python main.py --target https://example.com --duration 600
 ```
 
 Or programmatically (by importing its modules, if designed for it):
