@@ -62,10 +62,11 @@ sick-mind/
 ├── files/
 │   ├── dns.txt
 │   └── headers.txt
-├── main.py         # Main executable script
-├── config.json           # Default configuration
-├── README.md             # You are here
-└── requirements.txt      # Project dependencies
+├── black_rose.py
+├── config.json
+├── proxies.txt
+├── README.md
+└── requirements.txt
 ```
 
 ---
