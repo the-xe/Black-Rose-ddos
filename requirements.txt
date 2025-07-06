@@ -1,0 +1,8 @@
+certifi
+cloudscraper
+h2
+impacket
+loguru
+pysocks
+requests
+rich
