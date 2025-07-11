@@ -2,6 +2,8 @@
 
 **Version 2.0 — Reborn & Relentless.**
 
+![DDOS script](![توضیح تصویر](https://uploadkon.ir/uploads/846c11_25SRC-WOW-FOFF-.png))
+
 Black Rose is an elite stress testing framework designed for simulating sophisticated, high-intensity network attacks. It combines raw power with a clean, stealthy interface. Perfect for those who believe in strength through silence. 😈
 
 ---
